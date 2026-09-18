@@ -1,7 +1,7 @@
-# This is a sample Python script.
+from api import get_countries
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+countries = get_countries()
+print(len(countries))
 
 
 
