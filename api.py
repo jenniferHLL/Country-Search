@@ -8,7 +8,7 @@ def get_countries():
   countries = response.json()
   return countries
  except requests.exceptions.RequestException as e:
-     print(e)
+     print(f"Failed to get country data: {e}")
      return []
 
 
