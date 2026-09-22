@@ -1,3 +1,12 @@
+
+def display_menu():
+    print("1.Filter countries by region")
+    print("2.Find the largest country")
+    print("3.Find the most populous country")
+    print("4.Compare two countries")
+    print("5.Exit")
+
+
 def display_countries_by_region(countries):
     for country in countries:
         if not countries:

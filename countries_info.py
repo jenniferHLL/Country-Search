@@ -1,3 +1,4 @@
+
 def get_countries_info(countries):
     result = []
     for country in countries:
